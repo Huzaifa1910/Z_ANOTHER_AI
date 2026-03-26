@@ -1,16 +1,1 @@
-{
-"BASEINFO":
-{
-"FROM":
-[
-"I_ENTERPRISEPROJECT"
-],
-"ASSOCIATED":
-[],
-"BASE":[],
-"ANNO_REF":[],
-"SCALAR_FUNCTION":[],
-"VERSION":0,
-"ANNOREF_EVALUATION_ERROR":""
-}
-}
+Renaming: zi_HUZ_ep_project_001.ddls.baseinfo -

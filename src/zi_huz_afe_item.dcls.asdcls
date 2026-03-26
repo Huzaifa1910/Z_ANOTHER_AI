@@ -1,6 +1,1 @@
-@EndUserText.label: 'Data Control for AFE Item'
-@MappingRole: true
-define role ZI_AFE_ITEM {
-  grant select on ZI_AFE_ITEM
-  where true;
-}
+Renaming: zi_HUZ_afe_item.dcls.asdcls -

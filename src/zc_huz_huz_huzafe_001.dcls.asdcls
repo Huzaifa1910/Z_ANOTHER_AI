@@ -1,6 +1,1 @@
-@EndUserText.label: 'Access Control for ZC_CAPEXAFE_001'
-@MappingRole: true
-define role ZC_CAPEXAFE_001 {
-  grant select on ZC_CAPEXAFE_001
-  where true;
-}
+Renaming: zc_HUZ_HUZ_capexafe_001.dcls.asdcls -
