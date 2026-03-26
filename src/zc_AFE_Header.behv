@@ -1,0 +1,13 @@
+behavior for ZC_AFE_Header alias ZC_AFE_HDR {
+  create;
+  update;
+  delete;
+
+  field (client, header_uuid) numbering managed readonly;
+
+  association _Items { create; }
+
+  authorization master ( global );
+
+  implementation in class ZBP_AFE_Header unique;
+}

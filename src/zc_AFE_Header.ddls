@@ -1,0 +1,23 @@
+@AbapCatalog.sqlViewName: 'ZC_AFE_HDR'
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'AFE Header Consumption'
+define root view entity ZC_AFE_Header as projection on ZI_AFE_Header {
+  key client,
+  key header_uuid,
+  project_id,
+  purpose_capex,
+  purpose_opex,
+  budget_status,
+  total_investment_capital,
+  total_investment_expense,
+  earning_savings,
+  exchange_rate,
+  payback_period,
+  created_by,
+  created_at,
+  last_changed_by,
+  last_changed_at,
+  local_last_changed_at,
+  _Items,
+  _Project
+}

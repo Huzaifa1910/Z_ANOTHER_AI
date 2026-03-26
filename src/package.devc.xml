@@ -9,36 +9,40 @@
     <SRV_CHECK>X</SRV_CHECK>
     <OBJECTS>
       <OBJECT>
-        <OBJ_NAME>ZTB_HUZ_AFE_ITM</OBJ_NAME>
+        <OBJ_NAME>ZTB_AFE_HD</OBJ_NAME>
         <OBJ_TYPE>TABL</OBJ_TYPE>
       </OBJECT>
       <OBJECT>
-        <OBJ_NAME>ZTB_HUZAFE_001</OBJ_NAME>
+        <OBJ_NAME>ZTB_AFE_ITM</OBJ_NAME>
         <OBJ_TYPE>TABL</OBJ_TYPE>
       </OBJECT>
       <OBJECT>
-        <OBJ_NAME>ZC_HUZ_HUZ_AFE_ITEM</OBJ_NAME>
-        <OBJ_TYPE>BDEF</OBJ_TYPE>
+        <OBJ_NAME>ZI_AFE_Header</OBJ_NAME>
+        <OBJ_TYPE>DDLS</OBJ_TYPE>
       </OBJECT>
       <OBJECT>
-        <OBJ_NAME>ZC_HUZ_HUZAFE_001</OBJ_NAME>
-        <OBJ_TYPE>BDEF</OBJ_TYPE>
+        <OBJ_NAME>ZI_AFE_Item</OBJ_NAME>
+        <OBJ_TYPE>DDLS</OBJ_TYPE>
       </OBJECT>
       <OBJECT>
-        <OBJ_NAME>ZBP_HUZ_AFE_ITEM</OBJ_NAME>
+        <OBJ_NAME>ZC_AFE_Header</OBJ_NAME>
+        <OBJ_TYPE>DDLS</OBJ_TYPE>
+      </OBJECT>
+      <OBJECT>
+        <OBJ_NAME>ZC_AFE_Item</OBJ_NAME>
+        <OBJ_TYPE>DDLS</OBJ_TYPE>
+      </OBJECT>
+      <OBJECT>
+        <OBJ_NAME>ZBP_AFE_Header</OBJ_NAME>
         <OBJ_TYPE>CLAS</OBJ_TYPE>
       </OBJECT>
       <OBJECT>
-        <OBJ_NAME>ZBP_HUZ_C_AFE_ITEM</OBJ_NAME>
-        <OBJ_TYPE>CLAS</OBJ_TYPE>
+        <OBJ_NAME>ZUI_AFE_FORM</OBJ_NAME>
+        <OBJ_TYPE>SERV</OBJ_TYPE>
       </OBJECT>
       <OBJECT>
-        <OBJ_NAME>ZBP_HUZ_C_HUZAFE_001</OBJ_NAME>
-        <OBJ_TYPE>CLAS</OBJ_TYPE>
-      </OBJECT>
-      <OBJECT>
-        <OBJ_NAME>ZBP_HUZ_R_HUZAFE_001</OBJ_NAME>
-        <OBJ_TYPE>CLAS</OBJ_TYPE>
+        <OBJ_NAME>ZCI_AFE_FORM_O4</OBJ_NAME>
+        <OBJ_TYPE>SERV</OBJ_TYPE>
       </OBJECT>
     </OBJECTS>
    </DEVC>

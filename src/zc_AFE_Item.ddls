@@ -1,0 +1,18 @@
+@AbapCatalog.sqlViewName: 'ZC_AFE_ITM'
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'AFE Item Consumption'
+define view entity ZC_AFE_Item as projection on ZI_AFE_Item {
+  key client,
+  key item_uuid,
+  parent_uuid,
+  building_work,
+  lab_equipment,
+  furniture,
+  it_infrastructure,
+  fees,
+  total_item_cost,
+  created_by,
+  created_at,
+  last_changed_by,
+  last_changed_at
+}

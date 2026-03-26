@@ -1,0 +1,24 @@
+@AbapCatalog.sqlViewName: 'ZI_AFE_HDR'
+@AbapCatalog.compiler.compareFilter: true
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'AFE Header Interface'
+define root view entity ZI_AFE_Header as select from ztb_afe_hd {
+  key client,
+  key header_uuid,
+  project_id,
+  purpose_capex,
+  purpose_opex,
+  budget_status,
+  total_investment_capital,
+  total_investment_expense,
+  earning_savings,
+  exchange_rate,
+  payback_period,
+  created_by,
+  created_at,
+  last_changed_by,
+  last_changed_at,
+  local_last_changed_at,
+  association [0..*] to ZI_AFE_Item as _Items on $projection.header_uuid = _Items.parent_uuid,
+  association to I_EnterpriseProject as _Project on $projection.project_id = _Project.ProjectID
+}

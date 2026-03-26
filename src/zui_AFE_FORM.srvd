@@ -1,0 +1,10 @@
+@ServiceDefinition: ZUI_AFE_FORM
+
+service ZUI_AFE_FORM {
+    expose ZC_AFE_Header as AFEHeader;
+    expose ZC_AFE_Item as AFEItems;
+}
+
+service binding ZUI_AFE_FORM_O4 with ODataV4 {
+    define service ZUI_AFE_FORM;
+}
